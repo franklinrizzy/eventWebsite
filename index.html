@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adishri - Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="footer_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="header_style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="upcoming_events.css">
+    <link rel="stylesheet" href="services-section.css">
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="home"> 
+        <a href="#" class="logo"><img src="logo.png"></a>
+        <div class="bx bx-menu" id="menu-icon"> </div>
+        <nav>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#footer">Contact</a></li>
+        </ul>
+        </nav>
+        <div class="header-btn">
+            <a href="#register" class="register">Register</a>
+        </div>
+    </header>
+    <div class="banner">
+
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="bgvid.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <h1>ADISHRI</h1>
+            <a href="#services">Explore</a>
+        </div>
+    </div>
+    
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            const header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+    })
+    </script>
+
+    <!-- Services Section -->
+    <section id="services" class="main-services">
+        <p class="para-head">Services</p>
+        <div class="sec-container">
+            <img class="img-norev" src="1.jpg">
+            <p class="img-text-head">Production</p>
+            <p class="img-text">At our event management company, we're the architects of unforgettable experiences. From concept to execution, we craft seamless productions that captivate audiences and leave lasting impressions. With meticulous planning and creative vision, we turn ideas into reality, delivering events that exceed expectations every time.
+
+            </p>
+        </div>
+        <div class="sec-container-rev">
+            <!-- <p class="para"></p> -->
+            <img class="img-rev" src="1.jpg">
+            <p class="img-text-head-rev">sponsership</p>
+            <p class="img-text-rev">We specialize in bringing events to life. From intimate gatherings to large-scale productions, our dedicated team handles every detail with precision and flair. With a focus on seamless execution and client satisfaction, we ensure that every event we manage is a resounding success. </p>
+        </div>
+        <div class="sec-container">
+            <!-- <p class="para"></p> -->
+            <img class="img-norev" src="1.jpg">
+            <p class="img-text-head">Event Marketing</p>
+            <p class="img-text">Elevate your event with star power. As experts in celebrity marketing, we connect brands with A-list talent to enhance the allure and reach of their events. From securing high-profile performers to arranging VIP experiences, we create unforgettable moments that leave a lasting impression on attendees.
+
+            </p>
+        </div>
+        <div class="sec-container-rev">
+            <!-- <p class="para"></p> -->
+            <img class="img-rev" src="1.jpg">
+            <p class="img-text-head-rev">Celebrity Booking</p>
+            <p class="img-text-rev">Unlock the power of partnerships. Our sponsorship opportunities offer brands unique exposure and engagement opportunities at our events. Through strategic partnerships and tailored packages, we help brands connect with their target audience and achieve their marketing objectives in impactful ways. </p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <a name="fluid-gallery"></a>
+        <section class="gallery-block compact-gallery">
+            <div class="container">
+                <div class="heading">Gallery</div>
+                <div class="row no-gutters">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                        <a class="lightbox" href="img_3.JPG">
+                            <img class="img-fluid image" src="img_3.JPG">
+                            <span class="description">
+                                <span class="description-heading"><b>Start-up Expo at GL Bajaj</b></span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                        <a class="lightbox" href="img_5.JPG">
+                            <img class="img-fluid image" src="img_5.jpg">
+                            <span class="description">
+                                <span class="description-heading"><b>Meeting with CEO of GL Bajaj</b></span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                        <a class="lightbox" href="img_6.JPG">
+                            <img class="img-fluid image" src="img_6.JPG">
+                            <span class="description">
+                                <span class="description-heading"><b>Hostel Fresher's party crowd</b></span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                        <a class="lightbox" href="img_7.JPG">
+                            <img class="img-fluid image" src="img_7.JPG">
+                            <span class="description">
+                                <span class="description-heading"><b>Event at Raksha Hostel</b></span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                        <a class="lightbox" href="im_2.jpg">
+                            <img class="img-fluid image" src="im_2.jpg">
+                            <span class="description">
+                                <span class="description-heading"><b>Anubhav Dubey Founder Chai Sutta Baar</b></span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                        <a class="lightbox" href="img_5 copy.jpg">
+                            <img class="img-fluid image" src="img_5 copy.jpg">
+                            <span class="description">
+                                <span class="description-heading"><b>India's first Starup Mahakumbh</b></span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                        <a class="lightbox" href="img_8.JPG">
+                            <img class="img-fluid image" src="img_8.JPG">
+                            <span class="description">
+                                <span class="description-heading"><b>Hostel event</b></span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                        <a class="lightbox" href="img_9.JPG">
+                            <img class="img-fluid image" src="img_9.JPG">
+                            <span class="description">
+                                <span class="description-heading"><b>Hostel event</b></span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                        <a class="lightbox" href="img_10.JPG">
+                            <img class="img-fluid image" src="img_10.JPG">
+                            <span class="description">
+                                <span class="description-heading"><b>Hostel event</b></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Events and Testimonials Section -->
+    <section id="events" class="events">
+        <div class="title">Upcoming Events</div>
+        <div class="container">
+            <div class="event-container">
+                <div class="event">
+                    <img class="event-img" src="https://via.placeholder.com/200" alt="Event 1">
+                    <div class="event-details">
+                        <h2 class="event-title">Stay tuned</h2>
+                        <p class="event-date">TBD</p>
+                        <p class="event-location">TBD</p>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <img class="event-img" src="https://via.placeholder.com/200" alt="Event 2">
+                    <div class="event-details">
+                        <h2 class="event-title">Stay tuned</h2>
+                        <p class="event-date">TBD</p>
+                        <p class="event-location"></p>
+                    </div>
+                </div>
+
+                <!-- Add more events as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer" class="footer"  style="text-align: center;">
+        <div class="footer_container">           
+            <img src="adishrilogo.jpeg" width="100px" height="100px">
+   
+                  <p>Call us on +91 9569552280 </p>
+                    <a href="https:gmail.com">adishreeproductions@gmail.com</a></br>
+                    <!--<a href="#">Contact us</a> -->
+        </div>
+        <div class="footer_container1">
+            <div class="social">
+                <a href="https://twitter.com/"><span class="fab fa-twitter"></span></a>
+                <a href="https://www.instagram.com/aadishriproductions/"><span class="fab fa-instagram"></span></a>
+                <a href="https://in.linkedin.com/company/adishri-productions"><span class="fab fa-linkedin"></span></a> 
+            </div>
+            <div class="place">
+                <p><a href="https://google.com"><span class='fas fa-map-marker-alt'></span></a>
+                <span class="text">Gautam Buddha Nagar, 201306 Uttar Pradesh, India </span><br>
+                <p class="copywright-content">Copyright &copy; Adishri Productions, All rights reserved.<br></p>
+       
+                <!-----<span class="footer_u"><a href="#" class="terms">Made with Adishri ❤️</a></u></p>-->
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
